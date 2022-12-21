@@ -1,24 +1,20 @@
 <script lang="ts" setup>
 import { ref, onMounted } from "vue";
+import twemoji from "twemoji";
 
 const title = ref();
 
 onMounted(() => {
-  title.value.innerHTML = title.value.textContent.replace(/\S/g, "<span>$&</span>");
+  //title.value.innerHTML = title.value.textContent.replace(/\S/g, "<span>$&</span>");
+  twemoji.parse(title.value, { folder: "svg", ext: ".svg" });
 });
 </script>
 
 <template>
   <main>
     <div id="title-container">
-      <span ref="title" class="anim-text-flow">Welcome to Yurt!</span>
+      <span ref="title" class="anim-text-flow">⛺<span>.</span>💵</span>
     </div>
-
-    <h1>
-      This is the default landing page, which means no service is (yet) assigned to this (sub)domain
-      😉
-    </h1>
-    <h1>👉 <a href="https://tipi.cash">Homepage</a></h1>
   </main>
 </template>
 
@@ -44,7 +40,7 @@ main > * {
 
 #title-container {
   font-family: "Pacifico", cursive;
-  font-size: 3em;
+  font-size: 4em;
 }
 
 h1 {
@@ -55,5 +51,12 @@ h1 {
 
 h1 a:visited {
   color: whitesmoke;
+}
+
+img.emoji {
+  height: 1em;
+  width: 1em;
+  margin: 0 0.05em 0 0.1em;
+  vertical-align: -0.1em;
 }
 </style>
