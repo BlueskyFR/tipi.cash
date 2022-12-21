@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import { ref, onMounted } from "vue";
 import twemoji from "twemoji";
+import Links from "@/components/Links.vue";
 
 const title = ref();
 
@@ -14,6 +15,8 @@ onMounted(() => {
   <main>
     <div id="title-container">
       <span ref="title" class="anim-text-flow">⛺<span>.</span>💵</span>
+
+      <links />
     </div>
   </main>
 </template>
@@ -26,6 +29,7 @@ main {
   display: grid;
   place-items: center;
   align-content: space-around;
+  justify-content: center;
   font-size: 2em;
   height: 100vh;
   margin: 0;
