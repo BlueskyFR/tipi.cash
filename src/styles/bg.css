@@ -58,5 +58,5 @@
   height: 1px;
   background: #999;
   opacity: 0;
-  /* animation: glitter 8s ease-in 0s infinite normal; */
+  animation: glitter 8s ease-in 0s infinite normal;
 }
