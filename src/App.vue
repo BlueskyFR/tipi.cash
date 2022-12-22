@@ -3,6 +3,7 @@ import { RouterView } from "vue-router";
 import { ref, onMounted } from "vue";
 
 import stars from "@/scripts/bg.js";
+import GithubCorner from "@/components/GithubCorner.vue";
 
 const bg = ref();
 
@@ -13,6 +14,7 @@ onMounted(() => {
 
 <template>
   <div id="bg" ref="bg"></div>
+  <github-corner />
 
   <RouterView />
 </template>
