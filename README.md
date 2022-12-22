@@ -1,8 +1,7 @@
-<center><h1>⛺.💵</h1></center>
+<p align="center"><a href="https://pad.blueskyfr.space" target="_blank"><img width="250" src="https://user-images.githubusercontent.com/25421460/209143115-95c18861-9a8b-47cb-a35a-70c2e1073b4d.png" alt="Tipi.cash" /></a></p>
+<p align="center">The source code behind <a href="https://tipi.cash">tipi.cash</a>! <i>(not very complicated atm tho)</i></p>
 
 [![Github Pages](https://github.com/BlueskyFR/tipi.cash/actions/workflows/github-pages.yml/badge.svg)](https://github.com/BlueskyFR/tipi.cash/actions/workflows/github-pages.yml)
-
-This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
 
