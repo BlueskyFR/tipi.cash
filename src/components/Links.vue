@@ -47,7 +47,8 @@ p {
 }
 
 #links a:hover {
-  border-radius: 1.2em;
+  background-color: rgba(245, 245, 245, 0.3);
+  box-shadow: 0 0 2em whitesmoke;
 }
 
 p > a:visited {
