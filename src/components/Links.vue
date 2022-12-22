@@ -2,17 +2,15 @@
 import { ref, onMounted } from "vue";
 
 const links = [
-  "pad.tipi.cash",
-  "bitwarden.tipi.cash",
-  "home.tipi.cash",
-  "ensia.ml",
+  "⚠ pad.tipi.cash",
+  "⚠ pad.blueskyfr.space",
+  "🔒 bitwarden.tipi.cash",
+  "🏠 home.tipi.cash",
+  "🤖🧠 ensia.ml",
   "hugo.cartigny.ml",
-  "revenirasoi.fr",
-  "pepene.red",
-  "pad.pepene.red",
+  "⛩ revenirasoi.fr",
   "blueskyfr.space",
-  "pad.blueskyfr.space",
-  "notes.blueskyfr.space",
+  "📝 notes.blueskyfr.space",
   "blueskyfr.eu",
 ];
 
